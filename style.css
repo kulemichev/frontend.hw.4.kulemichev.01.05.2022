@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px 0 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+table {
+  margin: 50px auto;
+  border-collapse: collapse;
+  width: 75%;
+}
+
+tr {
+  border: 1px solid gray;
+}
+
+td {
+  width: 33.33%;
+  height: 50px;
+  text-align: center;
+  border: 1px solid gray;
+}
+
+/* правила для уникальных размерностей таблиц и ячеек */
+.w-90 {
+  width: 90%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-28 {
+  width: 28%;
+}
+
+.h-200 {
+  height: 200px;
+}
